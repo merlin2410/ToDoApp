@@ -1,0 +1,26 @@
+# --- Compiled Source (Junk) ---
+*.class
+
+# --- Build Folders (Where the magic happens) ---
+out/
+bin/
+build/
+target/
+
+# --- IDE Settings (Personal preferences you shouldn't share) ---
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+
+# --- OS Junk (Mac/Windows hidden files) ---
+.DS_Store
+Thumbs.db
+
+# --- Distribution Files (Don't commit these!) ---
+# We upload these to "Releases", not the code repo
+*.jar
+*.exe
+*.msi
